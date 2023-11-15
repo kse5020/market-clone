@@ -23,12 +23,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
 }
 
 /* 화면이 380이상 커지면 경고화면으로 덮음 */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
